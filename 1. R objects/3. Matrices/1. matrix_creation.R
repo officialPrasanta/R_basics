@@ -13,6 +13,6 @@ print(triangle)
 production = matrix(c(190, 150, 97, 88, 110, 130, 72, 140, 168), nrow = 3, ncol = 3, byrow = TRUE)
 row_names = month.abb[1:3]
 col_names = c("Kanchan", "Pahas", "Midland")
-dimnames(production) = list(row_names, col_names)
+dimnames(production) = list(row_names, col_names)  # instead dimnames parameter can be used
 
 print(production)
