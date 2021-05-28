@@ -5,7 +5,7 @@
 #         for transposition, the "row" will be "column" and "column" will be "row" in the output array
 #         so considering position of row and column (1, 2) -> (2, 1)
 
-# USE Ctrl + Shift + C to comment out the lines not observing.
+# USE Ctrl + Shift + C to comment out the lines not observing
 
 # arr0
 cat("\n\n")
