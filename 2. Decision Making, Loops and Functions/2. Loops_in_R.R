@@ -8,3 +8,11 @@ repeat{
     break
   }
 }
+
+# for loop
+
+cat("\n")
+numbers = 1:5
+for(num in numbers){
+  print(num)
+}
