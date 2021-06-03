@@ -16,3 +16,13 @@ numbers = 1:5
 for(num in numbers){
   print(num)
 }
+
+# while loop
+cat("\n")
+stmnt = c("Happy","while loop")
+count = 0
+
+while (count < 7) {
+  print(stmnt)
+  count = count + 1
+}
