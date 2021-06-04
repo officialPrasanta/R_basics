@@ -26,3 +26,18 @@ while (count < 7) {
   print(stmnt)
   count = count + 1
 }
+
+
+# next statement
+
+cat("\n\n")
+alphabets = letters[1:10]
+print(alphabets)
+cat("\n")
+
+for(val in alphabets){
+  if(val == "d"){
+    next
+  }
+ cat(val, ' ')
+}
