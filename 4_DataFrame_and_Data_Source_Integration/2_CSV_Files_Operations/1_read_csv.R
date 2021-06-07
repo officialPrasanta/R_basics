@@ -1,7 +1,19 @@
-# set the current directory as working directory in R Studio: More-> Set As working directory
+# set the working directory in program
+# or set the current directory as working directory in R Studio: More-> Set As working directory
+
+working_dir = getwd()
+print(working_dir)
+
+tryCatch(
+  expr = {
+    current_dir = "./4_DataFrame_and_Data_Source_Integration/2_CSV_Files_Operations"
+    setwd(current_dir)
+  },
+  error = function(e){ 
+  }
+)
 
 # read the csv file
-
 csv_path = "diabetes.csv"
 dataset = read.csv(csv_path)
 print(dataset)
