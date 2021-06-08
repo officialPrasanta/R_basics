@@ -39,7 +39,7 @@ x = dataset[["total_prod"]]   #vector
 xlabel = "Location"
 ylabel ="total Production"
 
-# 4. give a name to the pie chart
+# 4. give a name to the bar chart
 png(filename = "2_Bar_Plot/bar_chart.png", width = 480, height = 600)
 # 5. set margin
 par(mar=c(3, 4.5, 4, 3))
