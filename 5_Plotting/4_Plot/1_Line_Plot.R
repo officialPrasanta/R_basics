@@ -29,7 +29,7 @@ total.productions = dataset[["total_prod"]]   #vector
 location = dataset[["location"]]
 cx = seq(1, 3.5, 0.5)
 # 2. filename.
-png(file = "4_Plot/line_chart_label_colored.png")
+png(file = "4_Plot/line_chart.png")
 
 # 3. plot the line plot
 plot(y = total.productions,
