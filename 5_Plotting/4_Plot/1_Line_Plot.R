@@ -32,7 +32,13 @@ cx = seq(1, 3.5, 0.5)
 png(file = "4_Plot/line_chart_label_colored.png")
 
 # 3. plot the line plot
-plot(y=total.productions, x=cx, xaxt="n", type = "o")
+plot(y = total.productions,
+     x = cx,
+     xaxt = "n",
+     type = "o",
+     ylim = c(200, max(total.productions)),
+     xlab = "location",
+     ylab = "total production")
 axis(1, at = seq(1, 3.5, .5), labels = location)
 
 dev.off()
