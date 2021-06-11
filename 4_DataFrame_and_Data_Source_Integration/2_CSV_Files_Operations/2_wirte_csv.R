@@ -1,5 +1,5 @@
 # set working directory to current directory
-
+# or set the current directory as working directory in R Studio: session-> Set As working directory->To File Pane Location
 working_dir = getwd()
 print(working_dir)
 

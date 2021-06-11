@@ -2,7 +2,8 @@
 # scatter plot showing correlation
 
 # set the working directory in program
-# or set the current directory as working directory in R Studio: More-> Set As working directory
+# or set the current directory as working directory in R Studio:
+# Session-> Set As working directory->To File Pane Location
 
 working_dir = getwd()
 print(working_dir)
