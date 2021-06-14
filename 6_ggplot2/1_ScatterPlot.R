@@ -41,4 +41,11 @@ if(class(df$DATE) == "Date"){
 }
 
 # plot the scatter plot with ggplot2
-ggplot(data=df, aes=c(x="CITY", y="VALUES")) + geom_point()
+
+png(filename = "scatterplot1.png", width = 600, height = 800)
+
+print(ggplot(data=df, aes(x=factor(COUNTRY), y=VALUE, col=factor(COUNTRY)))
+      + geom_point()
+      + labs(title = "Air Index Quality", x="Country", y="Value"))
+
+dev.off()
